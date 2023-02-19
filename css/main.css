@@ -90,6 +90,7 @@ textarea {
   --header-font: 'Work Sans', sans-serif;
   --list-item-font: 'Solitreo', cursive;
   --primary-color: #0A3B67;
+  /* Rethink button colors and reorganize the styles together */
   --button-color: #0A3B67;
   --secondary-color: #1477D1;
   --accent-color: #75cb00;
@@ -100,6 +101,7 @@ textarea {
   --button-background-color: #ffffff;
   --hover-color: #447700;
   --background-color: #f9f9f9;
+  /* Is this text color, optional text color? */
   --foreground-color: #0A3B67;
 }
 
@@ -197,13 +199,18 @@ button:hover {
 }
 
 /* Footer styles */
-.copyright-image {
-  padding-bottom: 2px;
+footer p {
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .site-link {
   text-decoration: none;
   border-bottom: 1px solid var(--accent-color);
+}
+
+.copyright-image {
+  padding-bottom: 2px;
 }
 
 @media (min-width: 768px) {
